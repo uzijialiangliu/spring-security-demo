@@ -1,0 +1,15 @@
+spring:
+  security:
+    user:
+      name: uzi
+      password: 123456
+  datasource:
+    url: jdbc:mariadb://localhost:3306/demo?nullCatalogMeansCurrent=true
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: root
+    password: 123
+
+server:
+  servlet:
+    session:
+      timeout: 60s
